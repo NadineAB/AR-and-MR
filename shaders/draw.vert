@@ -1,5 +1,5 @@
 attribute vec3 VertexPosition;
-attribute vec2 aTextureCoord;
+attribute vec2 TextureCoord;
 
 uniform mat4 rotation;
 
