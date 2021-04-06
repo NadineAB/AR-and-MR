@@ -10,7 +10,6 @@
  * // @requires sender.js
  * @type {Object}
  * @author Milan Košťák
- * @version 2.0
  */
 const Detection = (function() {
 
