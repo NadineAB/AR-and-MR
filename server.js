@@ -23,7 +23,6 @@ const serveStatic = require('serve-static');
 //const certificate = fs.readFileSync('cert.crt', 'utf8');
 
 const app = express();
-// setup server with all important resources and listeners for ajax calls
 const server = app
 	.use(serveStatic(__dirname, {'alphabet': false}))
 	.use(serveStatic(__dirname, {'controller': false}))
